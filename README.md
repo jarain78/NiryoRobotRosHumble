@@ -95,6 +95,6 @@ Contributions to this project are welcome. If you have improvements, fixes, or n
 
 ## Support
 
-If you encounter any issues or have questions about using this repository, please open an issue on GitHub. You can also contact the project maintainers via email at [jarincon@ubu.es](mailto:support@example.com).
+If you encounter any issues or have questions about using this repository, please open an issue on GitHub. You can also contact the project maintainers via email at [jarincon@ubu.es](jarincon@ubu.es).
 
 
