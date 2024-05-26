@@ -1,7 +1,6 @@
 # Niryo Robot ROS 2 Humble
 
 
-Of course, here is the extended version translated into English:
 
 ---
 
