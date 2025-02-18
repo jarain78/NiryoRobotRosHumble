@@ -25,7 +25,6 @@ Before starting, make sure you have the following requirements installed on your
 
 - **Ubuntu 22.04** (recommended for full compatibility with ROS 2 Humble)
 - **ROS 2 Humble Hawksbill**: You can follow the official installation instructions at [ROS 2 Humble Installation](https://docs.ros.org/en/humble/Installation.html).
-- **Niryo One ROS 2 Packages**: Make sure to clone the necessary packages from the official Niryo One repository.
 - **rviz2**: A 3D visualization tool for ROS 2.
 
 ## Installation
