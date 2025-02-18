@@ -75,6 +75,10 @@ To start the visualization of the Niryo 2 or Ned3 arm, use the following command
 ros2 launch test_niryo_v2 slider_control.launch.py
 ```
 
+This command will launch the necessary nodes and open `rviz2` with the appropriate configuration to visualize the Niryo 2 arm in a 3D environment.
+
+![Descripción de la imagen](media/NiryoOne.png)
+
 ## Ned3
 
 ```sh
@@ -86,15 +90,9 @@ Or copy and paste this .sh file into your workspace and run it.
 ```sh
 run_niryo.sh
 ```
+This command will launch the necessary nodes and open `rviz2` with the appropriate configuration to visualize the Ned3 arm in a 3D environment.
 
-
-
-
-This command will launch the necessary nodes and open `rviz2` with the appropriate configuration to visualize the Niryo 2 arm in a 3D environment.
-
-![Descripción de la imagen](media/NiryoOne.png)
-
-
+![Descripción de la imagen](media/Ned3_ROS.png)
 
 
 ## Usage
