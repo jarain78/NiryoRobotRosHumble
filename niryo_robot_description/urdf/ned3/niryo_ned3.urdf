@@ -1,0 +1,185 @@
+<?xml version="1.0" ?>
+<robot name="ned3pro">
+	<link name="1-ned3_pro_base_assembly_parts">
+		<visual>
+			<origin xyz="-3.8880681991579346679e-05 0.00017352830767631416409 2.0172458887138949857e-05" rpy="0 -0 0" />
+			<geometry>
+				<mesh filename="package://niryo_robot_description/urdf/ned3/1-ned3_pro_base_assembly_parts.stl"/>
+			</geometry>
+			<material name="1-ned3_pro_base_assembly_parts_material">
+				<color rgba="0.2313725490196078538 0.38039215686274507888 0.7058823529411765163 1.0"/>
+			</material>
+		</visual>
+		<collision>
+			<origin xyz="-3.8880681991579346679e-05 0.00017352830767631416409 2.0172458887138949857e-05" rpy="0 -0 0" />
+			<geometry>
+				<mesh filename="package://niryo_robot_description/urdf/ned3/1-ned3_pro_base_assembly_parts.stl"/>
+			</geometry>
+		</collision>
+		<inertial>
+			<origin xyz="0 0 0" rpy="0 0 0"/>
+			<mass value="0" />
+			<inertia ixx="0" ixy="0"  ixz="0" iyy="0" iyz="0" izz="0" />
+		</inertial>
+	</link>
+	<link name="2-ned3_pro_shoulder_assembly">
+		<visual>
+			<origin xyz="0 1.1102230246251565404e-16 0.0020000000000000572875" rpy="3.141592653589793116 6.8399607121664438611e-17 -6.5468376685149784136e-33" />
+			<geometry>
+				<mesh filename="package://niryo_robot_description/urdf/ned3/2-ned3_pro_shoulder_assembly.stl"/>
+			</geometry>
+			<material name="2-ned3_pro_shoulder_assembly_material">
+				<color rgba="0.2313725490196078538 0.38039215686274507888 0.7058823529411765163 1.0"/>
+			</material>
+		</visual>
+		<collision>
+			<origin xyz="0 1.1102230246251565404e-16 0.0020000000000000572875" rpy="3.141592653589793116 6.8399607121664438611e-17 -6.5468376685149784136e-33" />
+			<geometry>
+				<mesh filename="package://niryo_robot_description/urdf/ned3/2-ned3_pro_shoulder_assembly.stl"/>
+			</geometry>
+		</collision>
+		<inertial>
+			<origin xyz="0 0 0" rpy="0 0 0"/>
+			<mass value="0" />
+			<inertia ixx="0" ixy="0"  ixz="0" iyy="0" iyz="0" izz="0" />
+		</inertial>
+	</link>
+	<link name="3-ned3_pro_arm_assembly">
+		<visual>
+			<origin xyz="2.3934576109246874509e-15 0.078499999999999986455 -0.025499999999999994893" rpy="-1.570796326794896558 -3.8857805861880400029e-16 0" />
+			<geometry>
+				<mesh filename="package://niryo_robot_description/urdf/ned3/3-ned3_pro_arm_assembly.stl"/>
+			</geometry>
+			<material name="3-ned3_pro_arm_assembly_material">
+				<color rgba="0.97254901960784312376 0.52941176470588235947 0.0039215686274509803377 1.0"/>
+			</material>
+		</visual>
+		<collision>
+			<origin xyz="2.3934576109246874509e-15 0.078499999999999986455 -0.025499999999999994893" rpy="-1.570796326794896558 -3.8857805861880400029e-16 0" />
+			<geometry>
+				<mesh filename="package://niryo_robot_description/urdf/ned3/3-ned3_pro_arm_assembly.stl"/>
+			</geometry>
+		</collision>
+		<inertial>
+			<origin xyz="0 0 0" rpy="0 0 0"/>
+			<mass value="0" />
+			<inertia ixx="0" ixy="0"  ixz="0" iyy="0" iyz="0" izz="0" />
+		</inertial>
+	</link>
+	<link name="4-ned3_pro_elbow_assembly">
+		<visual>
+			<origin xyz="0 0 0" rpy="7.0210188769051189569e-17 1.570796326794896558 0" />
+			<geometry>
+				<mesh filename="package://niryo_robot_description/urdf/ned3/4-ned3_pro_elbow_assembly.stl"/>
+			</geometry>
+			<material name="4-ned3_pro_elbow_assembly_material">
+				<color rgba="0.97254901960784312376 0.52941176470588235947 0.0039215686274509803377 1.0"/>
+			</material>
+		</visual>
+		<collision>
+			<origin xyz="0 0 0" rpy="7.0210188769051189569e-17 1.570796326794896558 0" />
+			<geometry>
+				<mesh filename="package://niryo_robot_description/urdf/ned3/4-ned3_pro_elbow_assembly.stl"/>
+			</geometry>
+		</collision>
+		<inertial>
+			<origin xyz="0 0 0" rpy="0 0 0"/>
+			<mass value="0" />
+			<inertia ixx="0" ixy="0"  ixz="0" iyy="0" iyz="0" izz="0" />
+		</inertial>
+	</link>
+	<link name="5-ned3_pro_forearm_assembly">
+		<visual>
+			<origin xyz="0 0 -0.071865210000000012691" rpy="-1.570796326794896558 -1.570796326794896558 0" />
+			<geometry>
+				<mesh filename="package://niryo_robot_description/urdf/ned3/5-ned3_pro_forearm_assembly.stl"/>
+			</geometry>
+			<material name="5-ned3_pro_forearm_assembly_material">
+				<color rgba="0.64705882352941179736 0.64705882352941179736 0.64705882352941179736 1.0"/>
+			</material>
+		</visual>
+		<collision>
+			<origin xyz="0 0 -0.071865210000000012691" rpy="-1.570796326794896558 -1.570796326794896558 0" />
+			<geometry>
+				<mesh filename="package://niryo_robot_description/urdf/ned3/5-ned3_pro_forearm_assembly.stl"/>
+			</geometry>
+		</collision>
+		<inertial>
+			<origin xyz="0 0 0" rpy="0 0 0"/>
+			<mass value="0" />
+			<inertia ixx="0" ixy="0"  ixz="0" iyy="0" iyz="0" izz="0" />
+		</inertial>
+	</link>
+	<link name="6-ned3_pro_wrist_assembly">
+		<visual>
+			<origin xyz="-8.3266726846886740532e-17 -5.5511151231257827021e-17 -0.036749999999999997946" rpy="-1.570796326794896558 5.8827770454689508559e-32 2.0620548936452984429e-17" />
+			<geometry>
+				<mesh filename="package://niryo_robot_description/urdf/ned3/6-ned3_pro_wrist_assembly.stl"/>
+			</geometry>
+			<material name="6-ned3_pro_wrist_assembly_material">
+				<color rgba="0.97254901960784312376 0.52941176470588235947 0.0039215686274509803377 1.0"/>
+			</material>
+		</visual>
+		<collision>
+			<origin xyz="-8.3266726846886740532e-17 -5.5511151231257827021e-17 -0.036749999999999997946" rpy="-1.570796326794896558 5.8827770454689508559e-32 2.0620548936452984429e-17" />
+			<geometry>
+				<mesh filename="package://niryo_robot_description/urdf/ned3/6-ned3_pro_wrist_assembly.stl"/>
+			</geometry>
+		</collision>
+		<inertial>
+			<origin xyz="0 0 0" rpy="0 0 0"/>
+			<mass value="0" />
+			<inertia ixx="0" ixy="0"  ixz="0" iyy="0" iyz="0" izz="0" />
+		</inertial>
+	</link>
+	
+	  <!-- Joints -->
+
+	<joint name="joint_1" type="revolute">
+		<origin xyz="0.0011111193180081105521 0.00014128312960281174098 0.092020172458887133926" rpy="3.1415926535897917837 4.6911994294055419229e-16 6.1232339957367044061e-17" />
+		<parent link="1-ned3_pro_base_assembly_parts" />
+		<child link="2-ned3_pro_shoulder_assembly" />
+		<axis xyz="0 0 1"/>
+		<limit effort="1" velocity="20" lower="0" upper="3.141592653589793116"/>
+		<joint_properties friction="0.0"/>
+	</joint>
+	<joint name="joint_2" type="revolute">
+		<origin xyz="0.024999999999999990979 -1.5802246663976227126e-16 -0.069999999999999146238" rpy="-1.570796326794896558 -3.0039357235659917233e-17 -1.5707963267948970021" />
+		<parent link="2-ned3_pro_shoulder_assembly" />
+		<child link="3-ned3_pro_arm_assembly" />
+		<axis xyz="0 0 1"/>
+		<limit effort="1" velocity="20" lower="-1.115" upper="1.570796326794896558"/>
+		<joint_properties friction="0.0"/>
+	</joint>	
+	
+	<joint name="joint_3" type="revolute">
+		<origin xyz="-0.011999999999998102462 0.23029999999999997695 -0.025499999999999994893" rpy="-3.1415926535897926719 -2.1085773778321129237e-15 2.7925268031909271649" />
+		<parent link="3-ned3_pro_arm_assembly" />
+		<child link="4-ned3_pro_elbow_assembly" />
+		<axis xyz="0 0 1"/>
+		<limit effort="1" velocity="20" lower="0.08726646259971647" upper="2.7"/>
+		<joint_properties friction="0.0"/>
+	</joint>
+
+	<joint name="joint_4" type="revolute">
+		<origin xyz="0.038999999999999979128 -0.040681670000001168841 -3.6125616387217007741e-16" rpy="-1.5707963267948972241 -1.5707963267948958919 0" />
+		<parent link="4-ned3_pro_elbow_assembly" />
+		<child link="5-ned3_pro_forearm_assembly" />
+		<axis xyz="0 0 1"/>
+		<limit effort="1" velocity="20" lower="0" upper="3.141592653589793116"/>
+		<joint_properties friction="0.0"/>
+	</joint>
+			
+	<joint name="joint_5" type="revolute">
+		<origin xyz="0.022999999999999999611 -7.2164496600635175128e-16 -0.19174021000000007753" rpy="-6.6936160909458235717e-17 1.570796326794896336 0" />
+		<parent link="5-ned3_pro_forearm_assembly" />
+		<child link="6-ned3_pro_wrist_assembly" />
+		<axis xyz="0 0 1"/>
+		<limit effort="1" velocity="20" lower="0" upper="3.141592653589793116"/>
+		<joint_properties friction="0.0"/>
+	</joint>
+
+
+
+
+</robot>

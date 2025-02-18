@@ -65,9 +65,26 @@ Follow these steps to set up your environment and clone the repository:
 
 To start the visualization of the Niryo 2 arm, use the following command:
 
+## Ned2
+
+```sh
+ros2 launch test_niryo_v2 slider_control.launch.py
+```
+
+## Ned3
+
 ```sh
 ros2 launch test_niryo_v3 slider_control.launch.py
 ```
+
+Or copy and paste this .sh file into your workspace and run it.
+
+```sh
+run_niryo.sh
+```
+
+
+
 
 This command will launch the necessary nodes and open `rviz2` with the appropriate configuration to visualize the Niryo 2 arm in a 3D environment.
 

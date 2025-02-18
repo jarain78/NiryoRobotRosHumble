@@ -13,7 +13,7 @@ import launch_ros.descriptions
 def generate_launch_description():
     res = []
 
-    model_launch_arg = DeclareLaunchArgument("model", default_value=os.path.join(get_package_share_directory("niryo_one_description"), "urdf/v3/niryo_one.urdf.xacro"))
+    model_launch_arg = DeclareLaunchArgument("model", default_value=os.path.join(get_package_share_directory("niryo_robot_description"), "urdf/ned2/niryo_ned2_gripper1_n_camera.urdf"))
 
     
     res.append(model_launch_arg)
@@ -25,7 +25,7 @@ def generate_launch_description():
     res.append(gui_launch_arg)
     
     #robot_description = ParameterValue(Command(['xacro ', LaunchConfiguration('model')]), value_type=str)
-    robot_description = ParameterValue(Command(['xacro ',os.path.join(get_package_share_directory("niryo_one_description"), "urdf/v3/niryo_one.urdf")]), value_type=str)  
+    robot_description = ParameterValue(Command(['xacro ',os.path.join(get_package_share_directory("niryo_robot_description"), "urdf/ned2/niryo_ned2_gripper1_n_camera.urdf")]), value_type=str)  
 
     robot_state_publisher_node = Node(
         name="robot_state_publisher",
