@@ -6,9 +6,14 @@
 
 # Visualization of Niryo 2 Arm with ROS 2 Humble
 
-This repository provides a detailed visualization of the [Niryo 2](https://www.youtube.com/watch?v=j6B_Yxa1IJQ) robotic arm using ROS 2 Humble. Below are the instructions to launch the project and visualize the operation of the robotic arm.
+This repository provides a detailed visualization of the [Niryo 2](https://www.youtube.com/watch?v=j6B_Yxa1IJQ)
 
 ![Descripción de la imagen](media/3074021.jpeg)
+
+and [Ned3](https://www.youtube.com/watch?v=RqCxjRdR3tw) robotic arm using ROS 2 Humble. Below are the instructions to launch the project and visualize the operation of the robotic arm.
+
+![Descripción de la imagen](media/1-Ned3Pro-hero-2000-1.webp)
+
 
 ## Introduction
 
@@ -63,7 +68,7 @@ Follow these steps to set up your environment and clone the repository:
 
 ## Launching the Project
 
-To start the visualization of the Niryo 2 arm, use the following command:
+To start the visualization of the Niryo 2 or Ned3 arm, use the following command:
 
 ## Ned2
 
@@ -95,7 +100,7 @@ This command will launch the necessary nodes and open `rviz2` with the appropria
 
 ## Usage
 
-Once the project is running, you can interact with the Niryo 2 arm through the `rviz2` interface. You can perform the following actions:
+Once the project is running, you can interact with the Niryo 2 or Ned3 arm through the `rviz2` interface. You can perform the following actions:
 
 - **Control the arm's movement**: Use ROS 2 plugins to send motion commands.
 - **Visualize the arm's state**: Monitor the position, orientation, and joint states of the arm in real time.
